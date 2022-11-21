@@ -1,0 +1,80 @@
+html{
+    font-size: 16px;
+    background-color: beige;
+}
+
+.logo{
+    display: absolute;
+    font-size: 60px;
+    display: inline-block;
+    padding-right: 70px;
+    padding-left: 100px;
+    font-family: 'Bebas Neue';
+}
+.top #searchbar{
+    display: absolute;
+    border-radius: 15px;
+    border: 2px solid grey;
+    box-shadow: 0 1px 50px rgb(247, 247, 238, 0.25);
+    height: 50px;
+    font-size: 20px;
+    width: 1400px;
+    padding-left: 15px;
+    background-color: rgba(128, 128, 128, 0.253);
+}
+
+.btt{
+    margin-left: -50px;
+    height: none;
+    width: none;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: none;
+}
+.top{
+    border-bottom: 5px solid rgba(0, 0, 0, 0.048);
+    margin: 0px;
+    padding: 0px;
+    margin-top: -20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#categories{
+    text-align: center;
+    margin: 5px 65px;
+    font-size: 25px;
+}
+
+.homem{
+    margin: 5px 150px;
+    padding: 5px 15px;
+}
+
+.homem:hover{
+    background-color: rgba(128, 128, 128, 0.048);
+    border-radius: 8px;
+}
+
+.mulher{
+    margin: 5px 150px;
+    padding: 5px 15px;
+}
+
+.mulher:hover{
+    background-color: rgba(128, 128, 128, 0.048);
+    border-radius: 8px;
+}
+
+.crianca{
+    margin: 5px 150px;
+    padding: 5px 15px;
+}
+
+.crianca:hover{
+    background-color: rgba(128, 128, 128, 0.048);
+    border-radius: 8px;
+}
