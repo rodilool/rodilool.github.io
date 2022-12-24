@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Farmed Accounts</title>
+</head>
+<body>
+    <div id="header">
+        <div class="title"><a href="i.html"><h1>DB ROILS</h1></a></div>
+            <ul class="nav">
+                <li><a href="">Contacts</a></li>
+                <li><a href="">Help</a></li>
+                <li><a href="">How it works?</a></li>
+            </ul>
+    </div>
+    <div class="catalogo">
+        <div class="card">
+            <div class="picture">
+                <img src="Slide1.jpg">
+                <h1>Farmed Account</h1>
+                <h4>*Only one purchase can be made at a time, however you can purchase as many times as you want.*</h4>
+                <h2>Item description:</h2>
+                <h3>This account it's a simple, fully farmed account, to extract as many stones as we can from it. It does not come with any summonable LR's or Dokkan Festivals.</h3>
+            </div>
+            <div class="description">
+                <form action="https://formsubmit.co/4ab9175f251851ec02399e4e1dee65fa" method="POST">
+                    <input type="email" name="Email" placeholder="Email" required>
+                </form>
+                <div id="smart-button-container">
+                    <div style="text-align: center;">
+                      <div id="paypal-button-container"></div>
+                    </div>
+                  </div>
+                <script src="https://www.paypal.com/sdk/js?client-id=AdxahwRdtrhq9EcbJT6fgAQKJisaag835vCoNpQuopvstLssWpgfTJCrjySl82jxoocJEpETQwYWempP&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+                <script>
+                  function initPayPalButton() {
+                    paypal.Buttons({
+                      style: {
+                        shape: 'pill',
+                        color: 'white',
+                        layout: 'vertical',
+                        label: 'buynow',
+                        
+                      },
+              
+                      createOrder: function(data, actions) {
+                        return actions.order.create({
+                          purchase_units: [{"description":"Farmed Account","amount":{"currency_code":"USD","value":3}}]
+                        });
+                      },
+              
+                      onApprove: function(data, actions) {
+                        return actions.order.capture().then(function(orderData) {
+                          
+                          // Full available details
+                          console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+              
+                          // Show a success message within this page, e.g.
+                          const element = document.getElementById('paypal-button-container');
+                          element.innerHTML = '';
+                          element.innerHTML = '<h3>Thank you for your payment!</h3>';
+              
+                          // Or go to another URL:  actions.redirect('thank_you.html');
+                          
+                        });
+                      },
+              
+                      onError: function(err) {
+                        console.log(err);
+                      }
+                    }).render('#paypal-button-container');
+                  }
+                  initPayPalButton();
+                </script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
