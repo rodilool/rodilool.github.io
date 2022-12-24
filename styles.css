@@ -132,7 +132,6 @@
         height: 100%;
         display: flex;
         flex-direction: column;
-        border: solid green 3px;
         align-items: center;
     }
 
