@@ -110,7 +110,7 @@
         width: 100%;
         display: flex;
         align-items: center;
-        margin-top: -3%;
+        margin-top: -0.5%;
         background-color: rgb(0, 0, 0, 1);
         background-image: url('R.jfif');
         z-index: 9999;
