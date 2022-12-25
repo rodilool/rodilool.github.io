@@ -79,7 +79,7 @@
     }
 
     .title{
-        margin-left: 2%;
+        margin-left: 20px;
         font-size: 15px;
     }
     a{
@@ -90,7 +90,7 @@
     ul li a{
         text-decoration: none;
         color: whitesmoke;
-        margin: 10px;
+        margin: 8px;
         font-size: 20px;
     }
     .nav{
@@ -99,18 +99,18 @@
         justify-content: flex-end;
         width: 100%;
         display: flex;
-        margin: 20px;
+        margin-right: 10px;
         position: relative;
     }
     #header{
         position: fixed;
         border-bottom: 3px seashell solid;
         border: inset 20px seashell solid;
-        height: 10%;
+        height: auto;
         width: 100%;
         display: flex;
         align-items: center;
-        margin-top: -0.5%;
+        margin-top: -3%;
         background-color: rgb(0, 0, 0, 1);
         background-image: url('R.jfif');
         z-index: 9999;
@@ -120,22 +120,24 @@
     .catalogo{
         position: absolute;
         display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
-        height: 87%;
+        height: auto;
         width: 99%;
         top: 10%;
         
     }
 
     .card{
-        display: absolute;
+        display: flex;
         background-color: rgb(0, 0, 0, 0.8);
         border-radius: 25px;
         border: 3px solid whitesmoke;
         width: 90%;
-        height: 90%;
-        display: flex;
+        margin-top: 70px;
+        height: auto;
         flex-direction: row;
         flex-wrap: wrap;
         padding: 25px;
@@ -293,4 +295,303 @@
     #smart-button-container{
         width: 100%;
         line-height: 100px;
+    }
+    .catalogoa{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 87%;
+        width: 99%;
+        top: 10%;
+    }
+    .carda{
+        display: absolute;
+        background-color: rgb(0, 0, 0, 0.8);
+        border-radius: 25px;
+        border: 3px solid whitesmoke;
+        width: 90%;
+        height: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 25px
+    }
+    @media screen and (max-width:950px){
+        .body{
+            flex-direction: column;
+        }
+        .acc {
+            border-bottom: 3px solid black;
+            border-right: none;
+            height: 100%;
+            width: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            background-color: hsl(0, 0%, 0%, 0.5);
+            text-decoration: underline;
+        }
+        .acc a{
+            height: auto;
+            width: 100%;
+            text-align: center;
+        }
+        .serv a{
+            height: auto;
+            width: 100%;
+            text-align: center;
+        }
+        .serv{
+            border-top: 3px solid black;
+            height: 100%;
+            width: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            background-color: hsl(0, 0%, 0%, 0.5);
+            text-decoration: underline;   
+        }
+    
+        .acc:hover{
+            transition-duration: 0.5s;
+            height: 180%;
+            width: auto;
+            background-color: rgb(105, 105, 105, 0.8%);
+            border-bottom: 3px solid whitesmoke;
+            text-decoration: none; 
+            text-shadow: 1px 1px 2px black, 0 0 0.5em black, 0 0 0.2em black;
+        }
+        .acc:hover .serv{
+            height: 20%;
+            transition-duration: 0.5s;
+            background-color: rgb(0, 0, 0);
+        }
+        .serv:hover{
+            transition-duration: 0.5s;
+            height: 180%;
+            width: auto;
+            background-color: rgb(105, 105, 105, 0.8%);
+            border-top: 3px solid whitesmoke;
+            text-decoration: none; 
+            text-shadow: 1px 1px 2px black, 0 0 0.5em black, 0 0 0.2em black;
+            border-right: 3px solid whitesmoke;
+        }
+        .serv:hover .acc{
+            height: 20%;
+            transition-duration: 0.5s;
+            background-color: rgb(0, 0, 0);
+        }
+        .catalogo{
+            position: absolute;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            height: auto;
+            width: 99%;
+            top: 10%;
+            margin-top: 70px;
+        }
+    
+        .card{
+            display: flex;
+            background-color: rgb(0, 0, 0, 0.8);
+            border-radius: 25px;
+            border: 3px solid whitesmoke;
+            width: 90%;
+            margin-top: 70px;
+            height: auto;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .description{
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            align-items: center;
+        }
+        .picture{
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            align-items: center;
+            margin-left: 0px;
+        }
+    }
+    @media screen and (max-width:650px) {
+        .card{
+            display: flex;
+            background-color: rgb(0, 0, 0, 0.8);
+            border: none;
+            border-radius: 0px;
+            width: auto;
+            margin: auto;
+            margin-top: 70px;
+            height: auto;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-right: -5%;
+            border-top: 3px solid whitesmoke;
+            border-bottom: 3px solid whitesmoke;
+        }
+        .catalogo{
+            position: absolute;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            height: auto;
+            width: 100%;
+            top: 10%;
+            margin-top: 70px;
+        }
+        #header{
+            position: fixed;
+            border-bottom: 3px seashell solid;
+            border: inset 20px seashell solid;
+            height: auto;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            margin-top: -3%;
+            background-color: rgb(0, 0, 0, 1);
+            background-image: url('R.jfif');
+            z-index: 9999;
+        }
+        .space{
+            width: 100%;
+        }
+        .head{
+            font-size: 20px;
+            
+        }
+        .ansbox{
+            width: 100%;
+            height: 4.5%;
+            border: 2px solid rgb(180, 236, 230);
+            border-radius: 20px;
+            font-size: 18px;
+            margin-top: -10px;
+        }   
+        .submit{
+            font-size: 18px;
+            padding: 10px;
+            border: 2px solid rgb(180, 236, 230);
+            border-radius: 20px;
+        }
+        #smart-button-container{
+            width: 100%;
+            line-height: 100px;
+        }
+        .choice{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+        }
+        .choice a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+        }
+        .one{
+            text-align: center;
+            margin: 0px 25%;
+            margin-top: -15px;
+        }
+        .payhead{
+            line-height: 35px;
+        }
+    }
+    @media screen and (max-width:500px){
+        .catalogoa{
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            width: 100%;
+            top: 10%;
+        }
+        .carda{
+            display: absolute;
+            background-color: rgb(0, 0, 0, 0.8);
+            border-radius: 25px;
+            border: 3px solid whitesmoke;
+            align-items: center;
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            padding: 25px
+        }
+        .one{
+            text-align: center;
+            margin: 0px 0px;
+            margin-top: 0px;
+        }
+        .ansbox{
+            width: 100%;
+            height: 21px;
+            border: 2px solid rgb(180, 236, 230);
+            border-radius: 20px;
+            font-size: 18px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }   
+        .paypal{
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        #smart-button-container{
+            width: 100%;
+            line-height: 0px;
+        }
+        .choice{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+        }
+        .choice a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+        }
+        .one{
+            text-align: center;
+            margin: 0px 25%;
+            margin-top: 4px;}
+    }
+    @media screen and (max-width:403px){
+        .payhead{
+            font-size: 25px;
+        }
+    }
+    @media screen and (max-width:400px){
+        .title{font-size: 10px;}
+        ul li a{font-size: 17px;}
+    }
+
+    @media screen and (max-width:280px){
+        .title{font-size: 8px;}
+        ul li a{font-size: 14px;}
     }
