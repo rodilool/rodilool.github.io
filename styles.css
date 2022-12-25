@@ -1,0 +1,1389 @@
+    /*want to add a gradient from a dark grey to black*/
+    html{
+        background-color: black;
+        color: whitesmoke;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: -10px;
+    }
+
+    /*header, last 3 letters have to be black with white outline*/
+    .header h1{
+        text-align: center;
+        border-bottom: 5px solid #80808083;
+        padding-bottom: 1em;
+        
+    }
+
+    .logo{
+        margin-bottom: 0.5em;
+        height: 10em;
+        width: auto;
+        margin-top: 0.5em;
+    }
+    .header{
+        border-bottom: 4px grey solid;
+        border-radius: 2px;
+        background-color: black;
+        text-align: center;
+        box-shadow: 0 0 15px rgba(119, 119, 119, 0.185),
+                    0 0 75px rgba(177, 177, 177, 0.397);
+    }
+
+    /*nav, see if i can work with percentages, make a mobile phone compatible*/
+    body{
+        position: fixed;
+        height: 100%;
+        width: 99.9%;
+    }
+    .navigation{
+        background-image: url("5bced84fba221af9e0b8bdb1a7ce51a0.jpg");
+        height: 100%;
+        width: 100%;
+        position: relative;
+
+    }
+    a{
+        text-decoration: none;
+    }
+
+    .contact{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 70px 20px;
+        font-size: 30px;
+        position: absolute;
+        top: 9%;
+        left: 18%;
+        color: whitesmoke;
+        background-color: black;
+        text-shadow: 2px 1px rgba(128, 128, 128, 0.253);
+    }
+
+    .contact:hover{
+        border: 4px outset white;
+        background-color: grey;
+        transition: 0.2s;
+        transition-delay: 0.2s;
+    }
+
+    .about{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 70px 20px;
+        font-size: 30px;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        color: whitesmoke;
+        background-color: black;
+        text-shadow: 2px 1px rgba(128, 128, 128, 0.253);
+    }
+
+    .about:hover{
+        border: 4px outset white;
+        background-color: grey;
+        transition: 0.2s;
+        transition-delay: 0.2s;
+    }
+
+
+    .map{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 75px 20px;
+        font-size: 30px;
+        position: absolute;
+        top: 40%;
+        left: 22%;
+        color: whitesmoke;
+        background-color: black;
+        text-shadow: 2px 1px rgba(128, 128, 128, 0.253);
+    }
+
+    .map:hover{
+        border: 4px outset white;
+        background-color: grey;
+        transition: 0.2s;
+        transition-delay: 0.2s;
+    }
+
+    .price{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 60px 20px;
+        font-size: 30px;
+        position: absolute;
+        top: 12%;
+        left: 76%;
+        color: whitesmoke;
+        background-color: black;
+        text-shadow: 2px 1px rgba(128, 128, 128, 0.253);
+    }
+
+    .price:hover{
+        border: 4px outset white;
+        background-color: grey;
+        transition: 0.2s;
+        transition-delay: 0.2s;
+    }
+    .rev{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 85px 20px;
+        font-size: 30px;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        color: whitesmoke;
+        background-color: black;
+        text-shadow: 2px 1px rgba(128, 128, 128, 0.253);
+    }
+
+    .rev:hover{
+        border: 4px outset white;
+        background-color: grey;
+        transition: 0.2s;
+        transition-delay: 0.2s;
+    }
+
+    .galeria{
+        border: 3px dotted white;
+        border-radius: 50%;
+        padding: 55px 25px;
+        font-size: 30px;
+        position: absolute;
+        top: 45%;
+        left: 75%;
+        color: whitesmoke;
+        background-color: black;
+        text-shadow: 2px 1px rgba(128, 128, 128, 0.253);
+    }
+
+    .galeria:hover{
+        border: 4px outset white;
+        background-color: grey;
+        transition: 0.2s;
+        transition-delay: 0.2s;
+    }
+
+    .footer{
+        border-top: 4px grey solid;
+        border-radius: 2px;
+        background-color: black;
+        box-shadow: 0 0 15px rgba(119, 119, 119, 0.185),
+                    0 0 75px rgba(177, 177, 177, 0.397);
+        position: fixed;
+        margin-top: 150px;
+        margin-left: -10px; 
+        width: 100%;
+        height: 20%;
+        padding: 10px;
+        top: 70%;
+    }
+
+    .phone{
+        height: auto;
+        width: 40px;
+        background-color: whitesmoke;
+        border-radius: 15%;
+        padding: 5px;
+        margin: 0px 15px -20px 5px;
+    }
+
+    .mail{
+        height: auto;
+        width: 40px;
+        background-color: whitesmoke;
+        border-radius: 15%;
+        padding: 5px;
+        margin: 30px 15px -20px 5px;
+    }
+
+    .fb{
+        height: auto;
+        width: 40px;
+        background-color: whitesmoke;
+        border-radius: 15%;
+        padding: 5px;
+        margin: 0px 15px -20px 5px;
+        border: 1px solid black;
+    }
+    .fb:hover{
+        background-color: grey;
+        border: 2px solid white;
+    }
+    .insta:hover{
+        background-color: grey;
+        border: 2px solid white;
+    }
+    .insta{
+        height: auto;
+        width: 40px;
+        background-color: whitesmoke;
+        border-radius: 15%;
+        padding: 5px;
+        margin: 0px 15px -20px 5px;
+    }
+    .social h2{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .icons{
+        text-align: center;
+    }
+    .social{
+        position: absolute;
+        left: 6%;
+        top: 52.5%;
+        height: 200px;
+        width: 340px;
+        padding: 15px;
+        border: rgba(189, 189, 189, 0.356) 2px solid;
+        border-radius: 20px;
+        background-color: rgb(17, 17, 17);
+    }
+    .cont h1{
+        font-size: 30px;
+    }
+    .cont{
+        position: absolute;
+        left: 6%;
+        top: 21.8%;
+        height: 220px;
+        width: 340px;
+        padding: 15px;
+        border: rgba(189, 189, 189, 0.356) 2px solid;
+        border-radius: 20px;
+        background-color: rgb(17, 17, 17);
+        font-size: 16px;
+    }
+
+    .list{
+        margin: 0px;
+        margin-left: 30px;
+        font-size: 12px;
+        display: inline-flex;
+    }
+    .list a{
+        margin: 5px;
+        color: whitesmoke;
+    }
+
+    .list a:hover{
+        color: grey;
+    }
+    .gym{
+        margin-bottom: -30px;
+        margin-left: 20px;
+        font-weight: bold;
+    }
+
+    .author{
+        text-align: center;
+    }
+
+
+    .hours{
+        border: 2px solid grey;
+        position: absolute;
+        left: 67.5%;
+        top: 21.8%;
+        height: 500px;
+        width: 550px;
+        word-spacing: 10px;
+        padding: 0px 15px 15px 15px;
+        border: rgba(189, 189, 189, 0.356) 2px solid;
+        border-radius: 20px;
+        background-color: rgb(17, 17, 17);
+        z-index: 99999;
+    }
+
+    .hours p{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .hours h2{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .im{
+        height: 22.5em ;
+        width: auto;
+    }
+    
+    .ll{
+        position: absolute;
+        top: 30%;
+        left: 40%;
+    }
+
+    .hourslimit1600{
+        border: 2px solid grey;
+        position: absolute;
+        position: end;
+        left: 64.5%;
+        top: 21.8%;
+        height: 550px;
+        width: 450px;
+        word-spacing: 10px;
+        padding: 0px 15px 15px 15px;
+        border: rgba(189, 189, 189, 0.356) 2px solid;
+        border-radius: 20px;
+        background-color: rgb(17, 17, 17);
+        z-index: 99999;
+    }
+    @media (max-width: 1800px) and (min-width: 1501px){
+        .hours{
+            border: 2px solid grey;
+            position: absolute;
+            position: end;
+            left: 64.5%;
+            top: 21.8%;
+            height: 550px;
+            width: 450px;
+            word-spacing: 10px;
+            padding: 0px 15px 15px 15px;
+            border: rgba(189, 189, 189, 0.356) 2px solid;
+            border-radius: 20px;
+            background-color: rgb(17, 17, 17);
+
+            z-index: 99999;
+        }
+    }
+    @media (max-width: 1500px) {
+        
+        .about{
+            border: 3px dotted white;
+            border-radius: 100%;
+            padding: 70px 20px;
+            font-size: 30px;
+            position: absolute;
+            top: 12%;
+            left: 45%;
+            color: whitesmoke;
+            background-color: black;
+            text-shadow: 2px 1px rgba(128, 128, 128, 0.253);
+        }
+        .contact{
+            border: 3px dotted white;
+            border-radius: 100%;
+            padding: 70px 20px;
+            font-size: 30px;
+            position: absolute;
+            top: 9%;
+            left: 14%;
+            color: whitesmoke;
+            background-color: black;
+            text-shadow: 2px 1px rgba(128, 128, 128, 0.253);
+        }
+    
+        .rev{
+            border: 3px dotted white;
+            border-radius: 100%;
+            padding: 75px 10px;
+            font-size: 30px;
+            position: absolute;
+            top: 45%;
+            left: 45%;
+            color: whitesmoke;
+            background-color: black;
+            text-shadow: 2px 1px rgba(128, 128, 128, 0.253);
+        }
+
+        
+        .map{
+            border: 3px dotted white;
+            border-radius: 100%;
+            padding: 75px 20px;
+            font-size: 30px;
+            position: absolute;
+            top: 40%;
+            left: 16%;
+            color: whitesmoke;
+            background-color: black;
+            text-shadow: 2px 1px rgba(128, 128, 128, 0.253);
+        }
+        .logo{
+            margin-bottom: 0.5em;
+            height: 6.5em;
+            width: auto;
+            margin-top: 0.5em;
+        }
+    
+        .hours{
+            border: 2px solid grey;
+            position: absolute;
+            left: 65.5%;
+            top: 20.8%;
+            height: 400px;
+            width: 380px;
+            word-spacing: 10px;
+            padding: 0px 15px 15px 15px;
+            border: rgba(189, 189, 189, 0.356) 2px solid;
+            border-radius: 20px;
+            background-color: rgb(17, 17, 17);
+            
+            z-index: 99999;
+        }
+    
+        .hours p{
+            font-size: 18px;
+            text-align: center;
+        }
+    
+        .hours h2{
+            font-size: 30px;
+            text-align: center;
+        }
+    
+        .im{
+            height: 18em ;
+            width: auto;
+        }
+    
+        .footer{
+            border-top: 4px grey solid;
+            border-radius: 2px;
+            background-color: black;
+            box-shadow: 0 0 15px rgba(119, 119, 119, 0.185),
+                        0 0 75px rgba(177, 177, 177, 0.397);
+            position: fixed;
+            margin-top: 150px;
+            margin-left: -10px; 
+            width: 100%;
+            height: 20%;
+            padding: 10px;
+            top: 62.8%;
+        }
+        .cont h1{
+            font-size: 25px;
+        }
+    
+        .social{
+            position: absolute;
+            left: 6%;
+            top: 52.5%;
+            height: 140px;
+            width: 300px;
+            padding-bottom: 30px;
+            border: rgba(189, 189, 189, 0.356) 2px solid;
+            border-radius: 20px;
+            background-color: rgb(17, 17, 17);
+            z-index: 200;
+        }
+    
+        .cont{
+            position: absolute;
+            left: 6%;
+            top: 20.8%;
+            height: 170px;
+            width: 270px;
+            padding: 15px;
+            border: rgba(189, 189, 189, 0.356) 2px solid;
+            border-radius: 20px;
+            background-color: rgb(17, 17, 17);
+            font-size: 14px;
+            z-index: 200;
+        }
+        .list{
+            margin: 0px;
+            margin-left: 30px;
+            font-size: 12px;
+            display: inline-flex;
+        }
+    }
+
+    @media (max-width: 960px) and (min-width:0px) {
+        .logo{
+            height: 5em;
+            width: auto;
+        }
+        .im{
+            display: none;
+        }
+        .body{
+            position: absolute;
+        }
+        .boxes{
+            display: block;
+            position: relative;
+            margin: 0px;
+            padding: 0px;
+            align-items: center;
+            height: 20%;
+            width: 90%;
+        }
+
+        .cont{
+            position: relative;
+            margin-right: 10px;
+            top: 5.3%;
+            left: 29%;
+            height: 100%;
+            width: 211px;
+            padding: 10px;
+            border: rgba(189, 189, 189, 0.356) 2px solid;
+            border-radius: 20px;
+            background-color: rgb(17, 17, 17);
+            font-size: 12px;
+            margin-bottom: 5%;
+        }
+
+        .social{
+            position: relative;
+            top:3.3%;
+            left: 28%;
+            height: 100%;
+            width: 211px;
+            padding-bottom: 20px;
+            border: rgba(189, 189, 189, 0.356) 2px solid;
+            border-radius: 20px;
+            margin-top: 5px;
+            background-color: rgb(17, 17, 17);
+        }
+        .social h2{
+            font-size: 18px;
+            margin-top: 20px;
+    
+        }
+        .phone{
+            height: auto;
+            width: 11%;
+        }
+        .mail{
+            height: auto;
+            width: 11%;
+
+        }
+        .fb{
+            height: auto;
+            width: 14%;
+        }
+        .insta{
+            height: auto;
+            width: 14%;
+        }
+        .cont h1{
+            font-size: 16px;
+            text-align: center;
+        }
+        .hours{
+            border: 2px solid grey;
+            position: relative;
+            min-height: 400px;
+            max-height: 600px;
+            margin-top: 20px;
+            top: 30%;
+            width: 60%;
+            word-spacing: 10px;
+            padding: 0px 15px 15px 15px;
+            border: rgba(189, 189, 189, 0.356) 2px solid;
+            border-radius: 20px;
+            background-color: rgb(17, 17, 17);
+            z-index: 99999;
+            left: 20%;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: -50%;
+        }
+        .lilbox{
+            justify-content: center;
+        }
+        .hours p{
+            font-size: 18px;
+            text-align: center;
+        }
+    
+        .hours h2{
+            font-size: 30px;
+            text-align: center;
+        }
+        .footer{
+            border-top: 4px grey solid;
+            border-radius: 2px;
+            background-color: black;
+            box-shadow: 0 0 15px rgba(119, 119, 119, 0.185),
+                        0 0 75px rgba(177, 177, 177, 0.397);
+            position: relative;
+            width: 97.5%;
+            height: 13.5%;
+            padding: 10px;
+            z-index: 100;
+        }
+
+        .all{
+            overflow-y: scroll;
+            height: 100%;
+        }
+    }
+
+    @media (max-width: 551px) {
+        .contact{
+            border: 3px dotted white;
+            border-radius: 100%;
+            padding: 50px 15px;
+            font-size: 20px;
+            position: absolute;
+            top: 5%;
+            left: 10%;
+            color: whitesmoke;
+            background-color: black;
+            text-shadow: 2px 1px rgba(128, 128, 128, 0.253);
+        }
+    
+        .contact:hover{
+            border: 4px outset white;
+            background-color: grey;
+            transition: 0.2s;
+            transition-delay: 0s;
+        }
+    
+        .about{
+            border: 3px dotted white;
+            border-radius: 100%;
+            padding: 50px 15px;
+            font-size: 20px;
+            position: absolute;
+            top: 10%;
+            left: 60%;
+            color: whitesmoke;
+            background-color: black;
+            text-shadow: 2px 1px rgba(128, 128, 128, 0.253);
+        }
+    
+        .about:hover{
+            border: 4px outset white;
+            background-color: grey;
+            transition: 0.2s;
+            transition-delay: 0s;
+            
+        }
+    
+    
+        .map{
+            border: 3px dotted white;
+            border-radius: 100%;
+            padding: 50px 15px;
+            font-size: 20px;
+            position: absolute;
+            top: 37%;
+            left: 62%;
+            color: whitesmoke;
+            background-color: black;
+            text-shadow: 2px 1px rgba(128, 128, 128, 0.253);
+        }
+    
+        .map:hover{
+            border: 4px outset white;
+            background-color: grey;
+            transition: 0.2s;
+            transition-delay: 0s;
+        }
+    
+        .price{
+            border: 3px dotted white;
+            border-radius: 100%;
+            padding: 45px 20px;
+            font-size: 20px;
+            position: absolute;
+            top: 27%;
+            left: 15%;
+            color: whitesmoke;
+            background-color: black;
+            text-shadow: 2px 1px rgba(128, 128, 128, 0.253);
+        }
+    
+        .price:hover{
+            border: 4px outset white;
+            background-color: grey;
+            transition: 0.2s;
+            transition-delay: 0s;
+        }
+        .rev{
+            border: 3px dotted white;
+            border-radius: 100%;
+            padding: 70px 20px;
+            font-size: 20px;
+            position: absolute;
+            top: 48%;
+            left: 10%;
+            color: whitesmoke;
+            background-color: black;
+            text-shadow: 2px 1px rgba(128, 128, 128, 0.253);
+        }
+    
+        .rev:hover{
+            border: 4px outset white;
+            background-color: grey;
+            transition: 0.2s;
+            transition-delay: 0s;
+        }
+    
+        .galeria{
+            border: 3px dotted white;
+            border-radius: 100%;
+            padding: 45px 25px;
+            font-size: 20px;
+            position: absolute;
+            top: 60%;
+            left: 60%;
+            color: whitesmoke;
+            background-color: black;
+            text-shadow: 2px 1px rgba(128, 128, 128, 0.253);
+        }
+    
+        .galeria:hover{
+            border: 4px outset white;
+            background-color: grey;
+            transition: 0.2s;
+            transition-delay: 0s;
+        }
+
+        .phone{
+            height: auto;
+            width: 8%;
+        }
+        .mail{
+            height: auto;
+            width: 8%;
+        }
+
+        .social h2{
+            font-size: 18px;
+            margin-top: 15px;
+    
+        }
+        .cont h1{
+            font-size: 20px;
+        }
+        .boxes{
+            left: 0%;
+            margin-top: 20px;
+            display: flexbox;
+        }
+        .hours{
+            border: 2px solid grey;
+            position: relative;
+            min-height: 450px;
+            max-height: 600px;
+            margin-top: 20px;
+            top: 40%;
+            width: 100%;
+            word-spacing: 10px;
+            padding: 0px 15px 15px 15px;
+            border: rgba(189, 189, 189, 0.356) 2px solid;
+            border-radius: 0px;
+            background-color: rgb(17, 17, 17);
+            z-index: 99999;
+            left: 0%;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 100px;
+        }
+        .social{
+            position: relative;
+            top:3.3%;
+            left: 0%;
+            height: 70%;
+            width: 100%;
+            padding-bottom: 20px;
+            border: rgba(189, 189, 189, 0.356) 2px solid;
+            border-radius: 0px;
+            background-color: rgb(17, 17, 17);
+            margin-top: 5%;
+        }
+        .cont{
+            position: relative;
+            margin-right: 0px;
+            top: 3.3%;
+            height: 98%;
+            width: 100%;
+            padding: 10px;
+            left: 0%;
+            border: rgba(189, 189, 189, 0.356) 2px solid;
+            border-radius: 0px;
+            background-color: rgb(17, 17, 17);
+            padding-bottom: 40px;
+            font-size: 16px;
+        }
+        .fb{
+            height: auto;
+            width: 8%;
+        }
+        .insta{
+            height: auto;
+            width: 8%;
+        }
+    }
+@media (max-width:425px) {
+
+    .logo{
+        height: 4.3em;
+        width: auto;
+    }
+    .boxes{
+        left: -18%;
+    }
+    .hours{
+        word-spacing: 0px;
+        height: 420px;
+        width: 80%;
+        margin-top: -5%;
+        left: 7%;
+    }
+    .social{
+        position: relative;
+        top:3.3%;
+        left: 32%;
+        height: 150px;
+        width: 300px;
+        padding-bottom: 20px;
+        border: rgba(189, 189, 189, 0.356) 2px solid;
+        border-radius: 20px;
+        background-color: rgb(17, 17, 17);
+        margin-top: 10%;
+    }
+    .cont{
+        position: relative;
+        margin-right: 10px;
+        top: 3.3%;
+        height: 150px;
+        width: 300px;
+        padding: 10px;
+        left: 32%;
+        border: rgba(189, 189, 189, 0.356) 2px solid;
+        border-radius: 20px;
+        background-color: rgb(17, 17, 17);
+        
+        font-size: 16px;
+    }
+    .footer{
+        margin-top: -50%;
+    }
+    .fb{
+        height: auto;
+        width: 15%;
+    }
+    .insta{
+        height: auto;
+        width: 15%;
+    }
+    .social h2{
+        font-size: 20px ;
+    }
+
+    .cont h1{
+        font-size: 18px;
+    }
+}
+@media (max-width: 414px){
+    .contact{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 50px 15px;
+        font-size: 20px;
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        color: whitesmoke;
+        background-color: black;
+        text-shadow: 2px 1px rgba(128, 128, 128, 0.253);
+    }
+
+    .contact:hover{
+        border: 4px outset white;
+        background-color: grey;
+        transition: 0.2s;
+        transition-delay: 0s;
+    }
+
+    .about{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 50px 15px;
+        font-size: 20px;
+        position: absolute;
+        top: 10%;
+        left: 60%;
+        color: whitesmoke;
+        background-color: black;
+        text-shadow: 2px 1px rgba(128, 128, 128, 0.253);
+    }
+
+    .about:hover{
+        border: 4px outset white;
+        background-color: grey;
+        transition: 0.2s;
+        transition-delay: 0s;
+        
+    }
+
+
+    .map{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 50px 15px;
+        font-size: 20px;
+        position: absolute;
+        top: 37%;
+        left: 62%;
+        color: whitesmoke;
+        background-color: black;
+        text-shadow: 2px 1px rgba(128, 128, 128, 0.253);
+    }
+
+    .map:hover{
+        border: 4px outset white;
+        background-color: grey;
+        transition: 0.2s;
+        transition-delay: 0s;
+    }
+
+    .price{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 45px 20px;
+        font-size: 20px;
+        position: absolute;
+        top: 27%;
+        left: 15%;
+        color: whitesmoke;
+        background-color: black;
+        text-shadow: 2px 1px rgba(128, 128, 128, 0.253);
+    }
+
+    .price:hover{
+        border: 4px outset white;
+        background-color: grey;
+        transition: 0.2s;
+        transition-delay: 0s;
+    }
+    .rev{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 70px 20px;
+        font-size: 20px;
+        position: absolute;
+        top: 48%;
+        left: 10%;
+        color: whitesmoke;
+        background-color: black;
+        text-shadow: 2px 1px rgba(128, 128, 128, 0.253);
+    }
+
+    .rev:hover{
+        border: 4px outset white;
+        background-color: grey;
+        transition: 0.2s;
+        transition-delay: 0s;
+    }
+
+    .galeria{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 45px 25px;
+        font-size: 20px;
+        position: absolute;
+        top: 60%;
+        left: 60%;
+        color: whitesmoke;
+        background-color: black;
+        text-shadow: 2px 1px rgba(128, 128, 128, 0.253);
+    }
+
+    .galeria:hover{
+        border: 4px outset white;
+        background-color: grey;
+        transition: 0.2s;
+        transition-delay: 0s;
+    }
+    .boxes{
+        left: 0%;
+    }
+    .hours{
+        border: 2px solid grey;
+        position: relative;
+        min-height: 450px;
+        max-height: 600px;
+        margin-top: 20px;
+        top: 40%;
+        width: 94%;
+        word-spacing: 10px;
+        padding: 0px 15px 15px 15px;
+        border: rgba(189, 189, 189, 0.356) 2px solid;
+        border-radius: 0px;
+        background-color: rgb(17, 17, 17);
+        z-index: 99999;
+        left: 0%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    .social{
+        position: relative;
+        top:3.3%;
+        left: 0%;
+        height: 150px;
+        width: 103%;
+        padding-bottom: 20px;
+        border: rgba(189, 189, 189, 0.356) 2px solid;
+        border-radius: 0px;
+        background-color: rgb(17, 17, 17);
+        margin-top: 10%;
+    }
+    .cont{
+        position: relative;
+        margin-right: 0px;
+        top: 3.3%;
+        height: 150px;
+        width: 106%;
+        padding: 10px;
+        left: 0%;
+        border: rgba(189, 189, 189, 0.356) 2px solid;
+        border-radius: 0px;
+        background-color: rgb(17, 17, 17);
+        padding-bottom: 20px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 376px){
+    .contact{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 40px 15px;
+        font-size: 17px;
+    }
+    .about{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 40px 15px;
+        font-size: 17px;
+    }
+    .price{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 35px 15px;
+        font-size: 17px;
+    }
+    .map{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 45px 15px;
+        font-size: 17px;
+    }
+    .rev{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 50px 15px;
+        font-size: 17px;
+    }
+    .galeria{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 40px 25px;
+        font-size: 17px;
+    }
+    .hours{
+        border: 2px solid grey;
+        position: relative;
+        min-height: 420px;
+        max-height: 600px;
+        margin-top: 20px;
+        top: 40%;
+        width: 94%;
+        word-spacing: 10px;
+        padding: 0px 15px 15px 15px;
+        border: rgba(189, 189, 189, 0.356) 2px solid;
+        border-radius: 0px;
+        background-color: rgb(17, 17, 17);
+        z-index: 99999;
+        left: 0%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    .list{
+        margin: 0px;
+        margin-left: 15px;
+        font-size: 10px;
+        display: inline-flex;
+    }
+    .list a{
+        margin: 2px;
+        color: whitesmoke;
+    }
+    .boxes{
+        left: 0%;
+    }
+    .social{
+        position: relative;
+        top:3.3%;
+        height: 150px;
+        width: 100%;
+        left: 0;
+        padding-bottom: 20px;
+        border: rgba(189, 189, 189, 0.356) 2px solid;
+        border-radius: 0%;
+        background-color: rgb(17, 17, 17);
+        margin-top: 10%;
+    }
+    .cont{
+        position: relative;
+        margin-right: 10px;
+        top: 3.3%;
+        height: 150px;
+        width: 100%;
+        padding: 10px;
+        left: 0;
+        border: rgba(189, 189, 189, 0.356) 2px solid;
+        background-color: rgb(17, 17, 17);
+        border-radius: 0%;
+        font-size: 16px;
+    }
+}
+@media (max-width:321px) {
+    .contact{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 40px 15px;
+        font-size: 17px;
+        top: 4%;
+    }
+    .about{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 40px 15px;
+        top: 16%;
+        font-size: 17px;
+        left: 55%
+    }
+    .price{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 35px 15px;
+        font-size: 17px;
+    }
+    .map{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 45px 15px;
+        font-size: 17px;
+        left: 55%;
+    }
+    .rev{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 50px 15px;
+        font-size: 17px;
+        left: 7%;
+        top: 55%;
+    }
+    .galeria{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 40px 25px;
+        font-size: 17px;
+        left: 58%;
+        top: 70%;
+    }
+    .hours{
+        border: 2px solid grey;
+        position: relative;
+        min-height: 420px;
+        max-height: 600px;
+        margin-top: 10%;
+        top: 40%;
+        width: 94%;
+        word-spacing: 10px;
+        padding: 10px;
+        border: rgba(189, 189, 189, 0.356) 2px solid;
+        border-radius: 0px;
+        background-color: rgb(17, 17, 17);
+        z-index: 99999;
+        left: 0%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    .hours h2{
+        font-size: 25px
+    }
+    .hours p{
+        font-size: 14px;
+    }
+
+    .social{
+        position: relative;
+        top:3.3%;
+        height: 150px;
+        width: 100%;
+        left: 0;
+        padding-bottom: 20px;
+        border: rgba(189, 189, 189, 0.356) 2px solid;
+        border-radius: 0%;
+        background-color: rgb(17, 17, 17);
+        margin-top: 10%;
+    }
+
+    .cont{
+        position: relative;
+        margin-right: 10px;
+        top: 3.3%;
+        height: 150px;
+        width: 100%;
+        padding: 10px;
+        left: 0;
+        border: rgba(189, 189, 189, 0.356) 2px solid;
+        background-color: rgb(17, 17, 17);
+        border-radius: 0%;
+        font-size: 14px;
+    }
+    .social h2{
+        font-size: 1px ;
+    }
+
+    .cont h1{
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    .social h2{
+        font-size: 18px;
+        margin-top: 20px;
+
+    }
+    .phone{
+        height: auto;
+        width: 9%;
+    }
+    .mail{
+        height: auto;
+        width: 9%;
+
+    }
+    .fb{
+        height: auto;
+        width: 14%;
+    }
+    .insta{
+        height: auto;
+        width:14%;
+    }
+    .footer{
+        margin-top: -40%;
+    }
+    .logo{
+        width: auto;
+        height: 3em;
+    }
+    .list{
+        margin: 0px;
+        margin-left: 2px;
+        font-size: 8px;
+        display: inline-flex;
+    }
+    .list a{
+        margin: 2px;
+        color: whitesmoke;
+    }
+    .author{
+        font-size: 12px;
+    }
+}
+
+@media (max-height: 640px) {
+    .hours{
+        border: 2px solid grey;
+        position: relative;
+        min-height: 420px;
+        max-height: 600px;
+        margin-top: 10%;
+        top: 45%;
+        width: 94%;
+        word-spacing: 10px;
+        padding: 10px;
+        border: rgba(189, 189, 189, 0.356) 2px solid;
+        border-radius: 0px;
+        background-color: rgb(17, 17, 17);
+        z-index: 99999;
+        left: 0%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+}
+@media (max-height: 568px) {
+    .hours{
+        border: 2px solid grey;
+        position: relative;
+        min-height: 420px;
+        max-height: 600px;
+        margin-top: 10%;
+        top: 60%;
+        width: 94%;
+        word-spacing: 10px;
+        padding: 10px;
+        border: rgba(189, 189, 189, 0.356) 2px solid;
+        border-radius: 0px;
+        background-color: rgb(17, 17, 17);
+        z-index: 99999;
+        left: 0%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    .contact{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 40px 15px;
+        font-size: 17px;
+        top: 1.5%;
+    }
+    .about{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 40px 15px;
+        top: 8%;
+        font-size: 17px;
+        left: 55%
+    }
+    .price{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 35px 15px;
+        font-size: 17px;
+    }
+    .map{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 45px 15px;
+        font-size: 17px;
+        left: 55%;
+        top:32.5%;
+    }
+    .rev{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 50px 15px;
+        font-size: 17px;
+        left: 7%;
+        top: 52.5%;
+    }
+    .galeria{
+        border: 3px dotted white;
+        border-radius: 100%;
+        padding: 40px 25px;
+        font-size: 17px;
+        left: 58%;
+        top: 60%;
+    }
+}
